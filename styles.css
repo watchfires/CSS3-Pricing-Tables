@@ -1,0 +1,77 @@
+body {
+  font-family: 'Roboto', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 300;
+  background: #303133;
+  color: #aaafb4;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 300;
+}
+
+.col {
+  float: left;
+  width: 33.3%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.price-box {
+  background-color: #fcfcfc;
+  color: #555555;
+  list-style-type: none;
+  border: solid 0.0625rem #555555;
+  border-radius: 0.6rem;
+  margin: 0;
+  padding: 0;
+}
+
+.price-box .header {
+  background-color: #111111;
+  color: #f3f3f3;
+  font-size: 1.6rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  text-transform: uppercase;
+}
+
+.price-box .header.header-green {
+  background-color: #558a57;
+}
+
+.price-box li {
+  padding: 1.25rem;
+  border-bottom: solid 0.0625rem #eeeeee;
+  text-align: center;
+}
+
+.price-box .emph {
+  background-color: #f4f4f4;
+  font-size: 1.25rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.button {
+  background-color: #558a57;
+  border: none;
+  color: #ffffff;
+  padding: 0.625rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 0.3rem;
+}
+
+.button:hover {
+  background-color: #70b172;
+}
+
+/* ########## MOBILE ########## */
+
+@media(max-width: 740px) {
+  .col {
+    width: 100%;
+  }
+}
